@@ -101,11 +101,11 @@ function ItemManager () {
             <tr>
               <td></td>
               <td>
-                <input ref={itemName} type="text" placeholder="Item Name" />
+                <input ref={itemName} type="text" placeholder="" />
               </td>
               <td>
                 <select value={category} onChange={(e) => setCategory(e.target.value)}>
-                  <option value="">Select Category</option>
+                  <option value=""></option>
                   <option value="Stationary">Stationary</option>
                   <option value="Kitchenware">Kitchenware</option>
                   <option value="Appliance">Appliance</option>
@@ -116,7 +116,7 @@ function ItemManager () {
                   type="number" 
                   value={price} 
                   onChange={(e) => setPrice(e.target.value)} 
-                  placeholder="0.00" 
+                  placeholder="" 
                 />
               </td>
               <td>
