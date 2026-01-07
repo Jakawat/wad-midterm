@@ -1,0 +1,61 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px; /* Header alignment */
+}
+
+/* Table basic style */
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/* Column width styling based on ID selectors provided in template */
+#col-item-id { width: 50px; }
+#col-item-name { width: 300px; }
+#col-item-category { width: 150px; }
+#col-item-price { width: 100px; }
+#col-item-action { width: 80px; }
+
+/* Header Styling */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Error Message Styling */
+#error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Input and Select styling for the form row */
+input[type="text"],
+input[type="number"],
+select {
+  width: 90%;
+  padding: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
